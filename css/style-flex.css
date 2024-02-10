@@ -1,0 +1,52 @@
+.headerList a {
+    color: black;
+    font-size: 21px;
+    /* navの下線を消す */
+    text-decoration: none;
+}
+
+.headerList li {
+    list-style: none;
+    float: left;
+    padding: 50px 25px;
+}
+
+.headerLogo {
+    font-size: 30px;
+    float: left;
+    padding: 30px 40px;
+}
+
+.courseDetails {
+    display: flex;
+}
+
+.courseImg {
+    width: 600px;
+}
+
+.greyBox {
+    width: 600px;
+    background-color: #fafafa;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+}
+
+.newsDetails {
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.date {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.details_2 {
+    font-size: 14px;
+}

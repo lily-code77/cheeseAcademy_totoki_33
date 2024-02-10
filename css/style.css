@@ -1,0 +1,212 @@
+/* ここから下に記載していく */
+.wrap {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* ナビとメイン画像のHTMLが重ならないようにするための処置 */
+header {
+    height: 80px;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.center_P1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.center_P2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  190%);
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+}
+
+.englishTitle {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.yellowTitle {
+    color: #ffd61a;
+}
+
+.japaneseTitle {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutBox {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutImg {
+    width: 1200px;
+    margin-top: 40px;
+    /* margin-bottom: 30px; */
+}
+
+.courseBox {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* （後で！）courseのグレイBOX内の上下余白が等しくない。一応指定の120px→100pxにして誤魔化しているけど本質では無いので要確認。 */
+.courseDetailTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.details {
+    margin-left: 50px;
+    margin-bottom: auto;
+}
+
+.more {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* buttonのサイズが大きすぎる。 */
+.yellowBoxButton {
+    background-color: #ffd61a;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.yellowBoxButton:hover {
+    color: #ffd61a;
+    background-color: red;
+    text-decoration: none;
+}
+
+.access {
+    width: 1200px;
+    background-color: #fafafa;
+}
+
+.academyDetails {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    line-height: 30px;
+}
+
+.table {
+    text-align: left;
+}
+
+.th_tableAccess {
+    padding-left: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.td_tableAccess {
+    padding-left: 50px;
+}
+
+.contactDetails {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* .form {
+    text-align: center;
+} */
+
+/* .contactTable {
+    text-align: left;
+} */
+
+.th_contact {
+    border: 1px solid #838282;
+    width: 30%;/*400px*/
+    border-left: none;
+    text-align: left;
+}
+
+.td_contact {
+    border: 1px solid #838282;
+    width: 70%;/*700px*/
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-right: none;
+}
+
+.box {
+    width: 280px;
+}
+
+.shousai {
+    vertical-align:top;
+}
+
+.form-textarea {
+    width: 70%;
+    padding: 10px;
+    height: 100px;
+    /* border-radius: 5px;  */
+    /* border: 1px solid #3e3d3d; */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+footer {
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
